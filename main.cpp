@@ -9,8 +9,8 @@
 int main()
 {
     setlocale(LC_ALL, "Rus");
-    unsigned char A;
-    unsigned char B;
+    unsigned short A;
+    unsigned short B;
     std::cin >> A >> B;
 
     if (A <= 0) // По условию A должно быть больше 0
